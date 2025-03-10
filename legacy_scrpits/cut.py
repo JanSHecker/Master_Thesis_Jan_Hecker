@@ -5,22 +5,24 @@ import os
 from calculateMargins import calculate_bounding_box_distances
 
 
-imagedatapath = r"C:\Users\janhe\Desktop\Masterarbeit\image_saliency_opencv-master\image_saliency_opencv-master\output\detection_results.json"
-SAVETO = r"C:\Users\janhe\Desktop\Masterarbeit\BirefnetHuggingface\outputCV"
 
-with open(imagedatapath, 'r') as file:
-    imageData = json.load(file)
-                     
+
+#The purpose of this script was to apply a cut an image based on the amount of columns and rows desired for the image as they are defined for the newspaper (Spaltigkeit) it takes the arguments -i image -c columns and -r rows
+#The
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--image", required=True, help="Image")
 parser.add_argument("-c", "--columns", required=True, help="Columns")
 parser.add_argument("-r", "--rows", required=True, help="Rows")
 args = vars(parser.parse_args())
 
-imageNumber = args["image"]
-IMAGE_DIRECTORY = r'C:\Users\janhe\Desktop\Masterarbeit\BirefnetHuggingface\outputCV'
-image_filename = f'{imageNumber}_image_birefBound.png'
-image_path = os.path.join(IMAGE_DIRECTORY, image_filename)
+
+
+di = args["image"]
+
+image_path = 'Datenset\\picture'+ args["image"] + '.jpg'
+SAVETO = 'outputCV\\picture'
+
 image = cv2.imread(image_path)
 
 intendedColums = int(args["columns"])
@@ -31,12 +33,8 @@ intendedHeight = 3845 * intendedRows
 
 intendedAspectRatio = intendedWidth/intendedHeight
 print(f"the intended Aspect Ratio is {intendedAspectRatio}")
-key = f"picture{imageNumber}.jpg"
-if key in imageData:
-    entry = imageData[key]
-    print(entry)
-else:
-    print(f"Key '{key}' not found in image data.")
+
+
 
 
 def cut(image, intendedRatio):
@@ -75,7 +73,7 @@ def cut(image, intendedRatio):
 cutImage = cut(image, intendedAspectRatio)
 
 cv2.imshow('Result', cutImage)
-cutImagePath = SAVETO + "/{}_image_cut.png".format(imageNumber)
+cutImagePath = SAVETO + "_image_cut.png".format(di)
 cv2.imwrite(cutImagePath, cutImage)
 cv2.waitKey(0)  # Wait until a key is pressed to close the window
 cv2.destroyAllWindows()

@@ -15,8 +15,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--image", required=True, help="Imagenumber")
 args = vars(parser.parse_args())
 
-imagepath = r'C:\Users\janhe\Desktop\Masterarbeit\image_saliency_opencv-master\image_saliency_opencv-master\images\zeitung\picture'+ args["image"] + '.jpg'
-SAVETO = r'C:\Users\janhe\Desktop\Masterarbeit\BirefnetHuggingface\outputCV'
+imagepath ='Datenset\\picture'+ args["image"] + '.jpg'
+SAVETO = 'outputCV\\'
 birefnet = AutoModelForImageSegmentation.from_pretrained('ZhengPeng7/BiRefNet', trust_remote_code=True)
 torch.set_float32_matmul_precision(['high', 'highest'][0])
 birefnet.to('cuda')

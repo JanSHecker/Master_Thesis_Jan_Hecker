@@ -7,7 +7,15 @@ import numpy as np
 import json
 import os
 if 'HOME' not in os.environ:
-    os.environ['HOME'] = os.environ['USERPROFILE']  # or use another appropriate directory
+    os.environ['HOME'] = os.environ['USERPROFILE']  
+
+
+
+
+
+#This script is intended for use in cut.py
+
+
 
 def calculate_bounding_box_distances(imagepath, model_name='ZhengPeng7/BiRefNet', device='cuda'):
     """
@@ -22,8 +30,6 @@ def calculate_bounding_box_distances(imagepath, model_name='ZhengPeng7/BiRefNet'
     Returns:
         str: A JSON string containing the distances from the bounding box to the image borders.
     """
-
-    
 
     # Load the pre-trained BiRefNet model
     birefnet = AutoModelForImageSegmentation.from_pretrained(model_name, trust_remote_code=True)
