@@ -1,0 +1,602 @@
+{
+    "picture1.jpg": {
+        "width": 5568,
+        "height": 3712,
+        "size10000": 2066.8416,
+        "aspect_ratio": 1.5
+    },
+    "picture10.jpg": {
+        "width": 646,
+        "height": 363,
+        "size10000": 23.4498,
+        "aspect_ratio": 1.7796143250688705
+    },
+    "picture100.jpg": {
+        "width": 743,
+        "height": 1200,
+        "size10000": 89.16,
+        "aspect_ratio": 0.6191666666666666
+    },
+    "picture11.jpg": {
+        "width": 1200,
+        "height": 923,
+        "size10000": 110.76,
+        "aspect_ratio": 1.3001083423618636
+    },
+    "picture127.jpg": {
+        "width": 3592,
+        "height": 2395,
+        "size10000": 860.284,
+        "aspect_ratio": 1.4997912317327766
+    },
+    "picture128.jpg": {
+        "width": 3000,
+        "height": 2000,
+        "size10000": 600.0,
+        "aspect_ratio": 1.5
+    },
+    "picture129.jpg": {
+        "width": 1773,
+        "height": 1309,
+        "size10000": 232.0857,
+        "aspect_ratio": 1.3544690603514133
+    },
+    "picture130.jpg": {
+        "width": 1170,
+        "height": 687,
+        "size10000": 80.379,
+        "aspect_ratio": 1.703056768558952
+    },
+    "picture131.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture133.jpg": {
+        "width": 2835,
+        "height": 2111,
+        "size10000": 598.4685,
+        "aspect_ratio": 1.3429654192325913
+    },
+    "picture136.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture137.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture1374.jpg": {
+        "width": 1200,
+        "height": 807,
+        "size10000": 96.84,
+        "aspect_ratio": 1.486988847583643
+    },
+    "picture1376.jpg": {
+        "width": 1200,
+        "height": 794,
+        "size10000": 95.28,
+        "aspect_ratio": 1.5113350125944585
+    },
+    "picture1423.jpg": {
+        "width": 4724,
+        "height": 2965,
+        "size10000": 1400.666,
+        "aspect_ratio": 1.5932546374367622
+    },
+    "picture1450.jpg": {
+        "width": 2400,
+        "height": 1600,
+        "size10000": 384.0,
+        "aspect_ratio": 1.5
+    },
+    "picture1491.jpg": {
+        "width": 3592,
+        "height": 2395,
+        "size10000": 860.284,
+        "aspect_ratio": 1.4997912317327766
+    },
+    "picture1494.jpg": {
+        "width": 1200,
+        "height": 953,
+        "size10000": 114.36,
+        "aspect_ratio": 1.2591815320041972
+    },
+    "picture1508.jpg": {
+        "width": 2033,
+        "height": 1055,
+        "size10000": 214.4815,
+        "aspect_ratio": 1.9270142180094787
+    },
+    "picture1550.jpg": {
+        "width": 1500,
+        "height": 1000,
+        "size10000": 150.0,
+        "aspect_ratio": 1.5
+    },
+    "picture1567.jpg": {
+        "width": 3175,
+        "height": 2325,
+        "size10000": 738.1875,
+        "aspect_ratio": 1.3655913978494623
+    },
+    "picture1588.jpg": {
+        "width": 3592,
+        "height": 2021,
+        "size10000": 725.9432,
+        "aspect_ratio": 1.7773379515091539
+    },
+    "picture16.jpg": {
+        "width": 3071,
+        "height": 1961,
+        "size10000": 602.2231,
+        "aspect_ratio": 1.5660377358490567
+    },
+    "picture1638.jpg": {
+        "width": 1114,
+        "height": 1200,
+        "size10000": 133.68,
+        "aspect_ratio": 0.9283333333333333
+    },
+    "picture1639.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture166.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture167.jpg": {
+        "width": 2032,
+        "height": 1126,
+        "size10000": 228.8032,
+        "aspect_ratio": 1.8046181172291296
+    },
+    "picture1681.jpg": {
+        "width": 1512,
+        "height": 1417,
+        "size10000": 214.2504,
+        "aspect_ratio": 1.067043048694425
+    },
+    "picture1702.jpg": {
+        "width": 1077,
+        "height": 727,
+        "size10000": 78.2979,
+        "aspect_ratio": 1.4814305364511693
+    },
+    "picture1743.jpg": {
+        "width": 1200,
+        "height": 923,
+        "size10000": 110.76,
+        "aspect_ratio": 1.3001083423618636
+    },
+    "picture1755.jpg": {
+        "width": 2048,
+        "height": 2048,
+        "size10000": 419.4304,
+        "aspect_ratio": 1.0
+    },
+    "picture183.jpg": {
+        "width": 1536,
+        "height": 2048,
+        "size10000": 314.5728,
+        "aspect_ratio": 0.75
+    },
+    "picture186.jpg": {
+        "width": 732,
+        "height": 509,
+        "size10000": 37.2588,
+        "aspect_ratio": 1.4381139489194499
+    },
+    "picture187.jpg": {
+        "width": 7326,
+        "height": 4884,
+        "size10000": 3578.0184,
+        "aspect_ratio": 1.5
+    },
+    "picture188.jpg": {
+        "width": 732,
+        "height": 545,
+        "size10000": 39.894,
+        "aspect_ratio": 1.343119266055046
+    },
+    "picture189.jpg": {
+        "width": 3592,
+        "height": 2394,
+        "size10000": 859.9248,
+        "aspect_ratio": 1.5004177109440267
+    },
+    "picture19.jpg": {
+        "width": 4032,
+        "height": 3024,
+        "size10000": 1219.2768,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture191.jpg": {
+        "width": 2500,
+        "height": 1663,
+        "size10000": 415.75,
+        "aspect_ratio": 1.503307276007216
+    },
+    "picture192.jpg": {
+        "width": 3000,
+        "height": 1996,
+        "size10000": 598.8,
+        "aspect_ratio": 1.503006012024048
+    },
+    "picture2.jpg": {
+        "width": 2032,
+        "height": 1236,
+        "size10000": 251.1552,
+        "aspect_ratio": 1.6440129449838188
+    },
+    "picture204.jpg": {
+        "width": 1200,
+        "height": 774,
+        "size10000": 92.88,
+        "aspect_ratio": 1.550387596899225
+    },
+    "picture206.jpg": {
+        "width": 3592,
+        "height": 2388,
+        "size10000": 857.7696,
+        "aspect_ratio": 1.5041876046901173
+    },
+    "picture209.jpg": {
+        "width": 1200,
+        "height": 778,
+        "size10000": 93.36,
+        "aspect_ratio": 1.5424164524421593
+    },
+    "picture215.jpg": {
+        "width": 4485,
+        "height": 2984,
+        "size10000": 1338.324,
+        "aspect_ratio": 1.5030160857908847
+    },
+    "picture216.jpg": {
+        "width": 3000,
+        "height": 1999,
+        "size10000": 599.7,
+        "aspect_ratio": 1.5007503751875937
+    },
+    "picture22.jpg": {
+        "width": 4032,
+        "height": 3024,
+        "size10000": 1219.2768,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture224.jpg": {
+        "width": 3592,
+        "height": 2398,
+        "size10000": 861.3616,
+        "aspect_ratio": 1.4979149291075897
+    },
+    "picture23.jpg": {
+        "width": 1252,
+        "height": 872,
+        "size10000": 109.1744,
+        "aspect_ratio": 1.4357798165137614
+    },
+    "picture24.jpg": {
+        "width": 732,
+        "height": 1017,
+        "size10000": 74.4444,
+        "aspect_ratio": 0.7197640117994101
+    },
+    "picture25.jpg": {
+        "width": 3592,
+        "height": 2394,
+        "size10000": 859.9248,
+        "aspect_ratio": 1.5004177109440267
+    },
+    "picture27.jpg": {
+        "width": 1200,
+        "height": 1012,
+        "size10000": 121.44,
+        "aspect_ratio": 1.1857707509881423
+    },
+    "picture3.jpg": {
+        "width": 3592,
+        "height": 2395,
+        "size10000": 860.284,
+        "aspect_ratio": 1.4997912317327766
+    },
+    "picture30.jpg": {
+        "width": 1280,
+        "height": 960,
+        "size10000": 122.88,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture306.jpg": {
+        "width": 3000,
+        "height": 2000,
+        "size10000": 600.0,
+        "aspect_ratio": 1.5
+    },
+    "picture32.jpg": {
+        "width": 1200,
+        "height": 615,
+        "size10000": 73.8,
+        "aspect_ratio": 1.951219512195122
+    },
+    "picture34.jpg": {
+        "width": 4000,
+        "height": 3000,
+        "size10000": 1200.0,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture35.jpg": {
+        "width": 1200,
+        "height": 723,
+        "size10000": 86.76,
+        "aspect_ratio": 1.6597510373443984
+    },
+    "picture36.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture38.jpg": {
+        "width": 2030,
+        "height": 1129,
+        "size10000": 229.187,
+        "aspect_ratio": 1.7980513728963685
+    },
+    "picture39.jpg": {
+        "width": 3592,
+        "height": 2387,
+        "size10000": 857.4104,
+        "aspect_ratio": 1.504817762882279
+    },
+    "picture40.jpg": {
+        "width": 472,
+        "height": 581,
+        "size10000": 27.4232,
+        "aspect_ratio": 0.8123924268502581
+    },
+    "picture41.jpg": {
+        "width": 2032,
+        "height": 1090,
+        "size10000": 221.488,
+        "aspect_ratio": 1.8642201834862386
+    },
+    "picture42.jpg": {
+        "width": 3592,
+        "height": 2395,
+        "size10000": 860.284,
+        "aspect_ratio": 1.4997912317327766
+    },
+    "picture43.jpg": {
+        "width": 1200,
+        "height": 730,
+        "size10000": 87.6,
+        "aspect_ratio": 1.643835616438356
+    },
+    "picture44.jpg": {
+        "width": 1200,
+        "height": 908,
+        "size10000": 108.96,
+        "aspect_ratio": 1.3215859030837005
+    },
+    "picture45.jpg": {
+        "width": 1200,
+        "height": 703,
+        "size10000": 84.36,
+        "aspect_ratio": 1.7069701280227596
+    },
+    "picture46.jpg": {
+        "width": 1252,
+        "height": 799,
+        "size10000": 100.0348,
+        "aspect_ratio": 1.5669586983729662
+    },
+    "picture47.jpg": {
+        "width": 1200,
+        "height": 830,
+        "size10000": 99.6,
+        "aspect_ratio": 1.4457831325301205
+    },
+    "picture48.jpg": {
+        "width": 1041,
+        "height": 1200,
+        "size10000": 124.92,
+        "aspect_ratio": 0.8675
+    },
+    "picture49.jpg": {
+        "width": 3592,
+        "height": 2395,
+        "size10000": 860.284,
+        "aspect_ratio": 1.4997912317327766
+    },
+    "picture5.jpg": {
+        "width": 3000,
+        "height": 2000,
+        "size10000": 600.0,
+        "aspect_ratio": 1.5
+    },
+    "picture51.jpg": {
+        "width": 1200,
+        "height": 774,
+        "size10000": 92.88,
+        "aspect_ratio": 1.550387596899225
+    },
+    "picture52.jpg": {
+        "width": 1200,
+        "height": 592,
+        "size10000": 71.04,
+        "aspect_ratio": 2.027027027027027
+    },
+    "picture53.jpg": {
+        "width": 2412,
+        "height": 3592,
+        "size10000": 866.3904,
+        "aspect_ratio": 0.6714922048997772
+    },
+    "picture54.jpg": {
+        "width": 8155,
+        "height": 5209,
+        "size10000": 4247.9395,
+        "aspect_ratio": 1.5655596083701286
+    },
+    "picture55.jpg": {
+        "width": 782,
+        "height": 457,
+        "size10000": 35.7374,
+        "aspect_ratio": 1.711159737417943
+    },
+    "picture56.jpg": {
+        "width": 3592,
+        "height": 2693,
+        "size10000": 967.3256,
+        "aspect_ratio": 1.3338284441143706
+    },
+    "picture57.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture59.jpg": {
+        "width": 2033,
+        "height": 1091,
+        "size10000": 221.8003,
+        "aspect_ratio": 1.8634280476626948
+    },
+    "picture6.jpg": {
+        "width": 1200,
+        "height": 799,
+        "size10000": 95.88,
+        "aspect_ratio": 1.5018773466833542
+    },
+    "picture60.jpg": {
+        "width": 1200,
+        "height": 660,
+        "size10000": 79.2,
+        "aspect_ratio": 1.8181818181818181
+    },
+    "picture61.jpg": {
+        "width": 1200,
+        "height": 747,
+        "size10000": 89.64,
+        "aspect_ratio": 1.606425702811245
+    },
+    "picture63.jpg": {
+        "width": 3592,
+        "height": 2395,
+        "size10000": 860.284,
+        "aspect_ratio": 1.4997912317327766
+    },
+    "picture64.jpg": {
+        "width": 1200,
+        "height": 676,
+        "size10000": 81.12,
+        "aspect_ratio": 1.7751479289940828
+    },
+    "picture7.jpg": {
+        "width": 3592,
+        "height": 2694,
+        "size10000": 967.6848,
+        "aspect_ratio": 1.3333333333333333
+    },
+    "picture79.jpg": {
+        "width": 3592,
+        "height": 2398,
+        "size10000": 861.3616,
+        "aspect_ratio": 1.4979149291075897
+    },
+    "picture8.jpg": {
+        "width": 2036,
+        "height": 1311,
+        "size10000": 266.9196,
+        "aspect_ratio": 1.5530129672006103
+    },
+    "picture80.jpg": {
+        "width": 3592,
+        "height": 2392,
+        "size10000": 859.2064,
+        "aspect_ratio": 1.5016722408026757
+    },
+    "picture83.jpg": {
+        "width": 1199,
+        "height": 1200,
+        "size10000": 143.88,
+        "aspect_ratio": 0.9991666666666666
+    },
+    "picture86.jpg": {
+        "width": 3024,
+        "height": 4032,
+        "size10000": 1219.2768,
+        "aspect_ratio": 0.75
+    },
+    "picture88.jpg": {
+        "width": 3514,
+        "height": 2343,
+        "size10000": 823.3302,
+        "aspect_ratio": 1.4997865983781478
+    },
+    "picture90.jpg": {
+        "width": 1200,
+        "height": 1182,
+        "size10000": 141.84,
+        "aspect_ratio": 1.015228426395939
+    },
+    "picture91.jpg": {
+        "width": 1200,
+        "height": 751,
+        "size10000": 90.12,
+        "aspect_ratio": 1.5978695073235685
+    },
+    "picture92.jpg": {
+        "width": 1200,
+        "height": 1200,
+        "size10000": 144.0,
+        "aspect_ratio": 1.0
+    },
+    "picture93.jpg": {
+        "width": 918,
+        "height": 1200,
+        "size10000": 110.16,
+        "aspect_ratio": 0.765
+    },
+    "picture94.jpg": {
+        "width": 1528,
+        "height": 1951,
+        "size10000": 298.1128,
+        "aspect_ratio": 0.7831881086622245
+    },
+    "picture95.jpg": {
+        "width": 3806,
+        "height": 3953,
+        "size10000": 1504.5118,
+        "aspect_ratio": 0.9628130533771819
+    },
+    "picture96.jpg": {
+        "width": 991,
+        "height": 472,
+        "size10000": 46.7752,
+        "aspect_ratio": 2.0995762711864407
+    },
+    "picture98.jpg": {
+        "width": 2300,
+        "height": 1534,
+        "size10000": 352.82,
+        "aspect_ratio": 1.4993481095176011
+    },
+    "picture99.jpg": {
+        "width": 3592,
+        "height": 2395,
+        "size10000": 860.284,
+        "aspect_ratio": 1.4997912317327766
+    }
+}
