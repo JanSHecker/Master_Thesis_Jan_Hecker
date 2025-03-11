@@ -8,7 +8,11 @@ import numpy as np
 import json
 
 
-image_folder_path = r'C:\Users\janhe\Desktop\Masterarbeit\BirefnetHuggingface\Datenset'
+#This is the image segmentation approach it processes all images in the Datenset folder 
+
+
+
+image_folder_path = 'Datenset'
 response_path = 'BirefNet_Output\\birefnet_output.json'
 birefnet = AutoModelForImageSegmentation.from_pretrained('ZhengPeng7/BiRefNet', trust_remote_code=True)
 torch.set_float32_matmul_precision(['high', 'highest'][0])

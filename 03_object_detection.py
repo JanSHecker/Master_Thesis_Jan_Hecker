@@ -6,6 +6,15 @@ from mediapipe.tasks.python import vision
 import os
 import json
 
+
+
+
+
+
+#This is the object detection approach it processes all images in the Datenset folder 
+
+
+
 MARGIN = 10  # pixels
 ROW_SIZE = 10  # pixels
 FONT_SIZE = 1
@@ -14,7 +23,7 @@ FONT_THICKNESS = 1
 TEXT_COLOR = (255, 0, 0)  # red
 
 
-# Use absolute paths for MODELPATH and IMAGE_FILE
+
 model_path = 'efficientdet_lite2.tflite'
 image_folder_path = 'Datenset'
 output_path = 'Object_Detection_output'

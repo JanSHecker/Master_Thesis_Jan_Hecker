@@ -7,19 +7,24 @@ import os
 import argparse
 import cv2
 
-# Set HOME environment variable if it doesn't exist
+
+
+#This script will create a 'Freisteller' it taskes the image number as argument -i
+
+
+
+
 if 'HOME' not in os.environ:
-    os.environ['HOME'] = os.environ['USERPROFILE']  # or use another appropriate directory
+    os.environ['HOME'] = os.environ['USERPROFILE'] 
 
 # Argument parser setup
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--image", required=True, help="Image number")
 args = vars(parser.parse_args())
 
-# Define image path
+
 imagepath = 'Datenset\\picture' + args["image"] + '.jpg'
 SAVETO = 'Freisteller_Output'
-# Load BiRefNet model
 birefnet = AutoModelForImageSegmentation.from_pretrained('ZhengPeng7/BiRefNet', trust_remote_code=True)
 torch.set_float32_matmul_precision(['high', 'highest'][0])
 birefnet.to('cuda')
@@ -61,11 +66,9 @@ def extract_object(birefnet, imagepath):
     image_rgba.putdata(new_data)
     return image_rgba, mask_resized
 
-# Extract object and visualize
 result_image = extract_object(birefnet, imagepath)[0]
 freisteller_path = SAVETO + "/{}_image_freisteller.png".format(args["image"])
 result_image.save(freisteller_path, "PNG")
-# Visualization
 plt.axis("off")
 plt.imshow(result_image)
 plt.show()

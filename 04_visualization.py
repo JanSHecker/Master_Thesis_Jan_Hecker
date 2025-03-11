@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import Counter
 
-
+# This script aggrefates and visualizes the results from the evaluation
 
 evaluation_path = 'Evaluation\\full_evaluation.json'
 

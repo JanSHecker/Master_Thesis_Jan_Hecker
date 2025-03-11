@@ -6,6 +6,11 @@ from collections import Counter
 from collections import defaultdict
 import matplotlib.pyplot as plt
 
+
+# This script analyses the image dataset. Its output is necessary for the evaluation
+
+
+
 image_folder_path = 'Datenset'
 
 
@@ -57,7 +62,7 @@ def count_categories_per_image(data):
         result[image] = dict(Counter(categories))
     return result
 
-# Get the result
+
 categories_per_image = count_categories_per_image(category_data)
 
 with open("dataset_category_counts_image.json", "w") as json_file:

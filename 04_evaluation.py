@@ -1,6 +1,11 @@
 import json
 import pandas as pd
 
+
+#this script evaluates the performance of the approaches. the prior scripts need to be run first for this to work
+
+
+
 control_output_path = 'Image Cropping Detection.v1i.coco\\train\\_annotations.coco.json'
 gpt_output_path_1 = 'GPT_Output\\prompt_1_output.json'
 gpt_output_path_2 = 'GPT_Output\\prompt_2_output.json'

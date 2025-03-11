@@ -6,6 +6,13 @@ import os
 import re
 
 
+
+# this is the LLM approach it processes all images in the Datenset folder. As long as as GPT_output.json exists this script will not make a new request to the openai api to safe credits
+
+
+
+
+
 image_folder_path = 'Datenset'
 response_path = 'GPT_Output\\gpt_output.json'
 extracted_path = 'GPT_Output\\'
@@ -14,10 +21,6 @@ extracted_path = 'GPT_Output\\'
 def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
-
-
-
-
 
 
 
@@ -56,6 +59,7 @@ def ask_gpt(prompt,base64_image):
 
 def evaluate_dataset():
     if os.path.exists(response_path):
+        #safeguard to avoid unecessary requests
         print("Response already exists. No new request")
         with open(response_path) as json_file:
             return json.load(json_file)
@@ -92,7 +96,10 @@ Given a newspaper image with dimensions {width}x{height}, estimate bounding box 
     with open(response_path, "w") as json_file:
         json.dump(results, json_file, indent=4)
     return results
-  
+
+
+
+#Parse the coordiantes from the GPT response
 def extract_coords(gpt_output):
     for prompt in gpt_output[list(gpt_output.keys())[0]]:
       extracted_bboxes = {}
@@ -113,7 +120,6 @@ def extract_coords(gpt_output):
       with open(extracted_path + prompt + "_output.json", "w") as json_file:
         json.dump(extracted_bboxes, json_file, indent=4)
 
-#execute methods
 
 gpt_output = evaluate_dataset()
 
