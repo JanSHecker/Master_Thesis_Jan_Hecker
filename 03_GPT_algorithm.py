@@ -21,7 +21,7 @@ def encode_image(image_path):
 
 
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="key")
 
 def ask_gpt(prompt,base64_image): 
     response = client.chat.completions.create(
